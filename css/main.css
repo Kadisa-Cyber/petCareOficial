@@ -239,4 +239,19 @@ select{
     border-left: 1px solid #FF7258; 
     border-radius: 0 0 8px 8px;
     margin-top: -8px;
+
+    /* Eventos JS... */
+    padding: 10px 24px;
+    opacity: 0;
+    height: 0;
+    overflow: hidden;
+    transition: .2s;
 }
+
+.duvida.ativa .paragrafo{
+    opacity: 1;
+    height: fit-content;
+    overflow: 24px;
+    padding: 60px 24px 10px 24px;
+}
+
