@@ -6,12 +6,19 @@
 
 body{
     color:rgb(53, 53, 53);
+     background: linear-gradient(
+    45deg,
+    #20471C 0%,
+    #A5F990 50%,
+    #20471C 100%
+  );
+  font-family: "Nunito", sans-serif;
 }
 
 /* Header - menu */
 
 .menu{
-    background-color: #ff9a6c;
+    background-color: #20471C;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -39,6 +46,21 @@ body{
     gap: 32px;
     padding: 80px 80px 24px 80px;
     position: relative;
+    margin-top: 50px;
+}
+
+.gatoDeFundo{
+    position: relative;
+    top: 19px;
+}
+
+.texto-inicio{
+    color: aliceblue;
+}
+
+.texto-inicio h1{
+    font-weight: 900;
+    color: aliceblue;
 }
 
 h1,h2{
@@ -55,7 +77,7 @@ h1,h2{
 }
 
 .botao{
-    background-color: #ff9a6c;
+    background-color: #3C6934;
     border-radius: 8px;
     color: aliceblue;
     text-decoration: none;
@@ -64,7 +86,7 @@ h1,h2{
 
 .botao-transparente{
     background-color: transparent;
-    color: #FF7258;
+    color: #20471C;
     padding: 16px 32px;
     text-underline-offset: 4px;
 }
@@ -163,7 +185,7 @@ form{
 
 form input{
     margin: 10px;
-    border-color: #FF7258;
+    border-color: #20471C;
     border-style: solid;
     padding: 10px;
     border-radius: 5px;
@@ -172,7 +194,7 @@ form input{
 
 textarea{
     margin: 10px;
-    border-color: #FF7258;
+    border-color: #20471C;
     border-style: solid;
     padding: 10px;
     border-radius: 5px;
@@ -182,7 +204,7 @@ textarea{
 
 .botao-contato{
     width: 150px;
-    background-color: #FF7258;
+    background-color: #20471C;
     color: aliceblue;
     padding: 10px;
     border-radius: 10px;
@@ -193,13 +215,13 @@ textarea{
 
 .botao-contato:hover{
     background-color: aliceblue;
-    color: #FF7258;
+    color: #20471C;
     transition: 0.4s;
 }
 
 select{
     margin: 10px;
-    border-color: #FF7258;
+    border-color: #20471C;
     border-style: solid;
     padding: 10px;
     border-radius: 10px;
@@ -222,7 +244,7 @@ select{
 }
 
 .duvida h3{
-    border: 2px solid #FF7258;
+    border: 2px solid #20471C;
     border-radius: 8px;
     padding: 24px;
 }
@@ -234,9 +256,9 @@ select{
 }
 
 .duvida .paragrafo{
-    border-right: 1px solid #FF7258;
-    border-bottom: 1px solid #FF7258;
-    border-left: 1px solid #FF7258; 
+    border-right: 1px solid #20471C;
+    border-bottom: 1px solid #20471C;
+    border-left: 1px solid #20471C; 
     border-radius: 0 0 8px 8px;
     margin-top: -8px;
 
@@ -259,7 +281,7 @@ select{
 
 footer{
     height: 400px;
-    background-color: #ffe9e5;
+    background-color: #B7DCB4;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -288,7 +310,7 @@ footer{
 }
 
 .footerDois a{
-    color: #FF7258;
+    color: #20471C;
     text-decoration: none;
     margin-top: 10px;
 }
@@ -298,7 +320,7 @@ footer{
 }
 
 .footerTres a{
-    color: #FF7258;
+    color: #20471C;
     text-decoration: none;
     margin-top: 10px;
 }
@@ -313,7 +335,7 @@ footer{
 }
 
 .creditos a{
-    color: #FF7258;
+    color: #20471C;
     text-decoration: none;
     margin-left: 9px;
 }
